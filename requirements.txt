@@ -1,7 +1,6 @@
 datetime
 python-dateutil
 requests
-json
 smtplib
 mimetypes
 email.message
