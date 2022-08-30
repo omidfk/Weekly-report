@@ -2,7 +2,7 @@ name: Weekly Report
 
 on:
  schedule:
-  - cron: 06 12 * * 2
+  - cron: 5 * * * *
 env:
   SENDER: ${{ secrets.SENDER }}
   RECIPIENT: ${{ secrets.RECIPIENT }}
