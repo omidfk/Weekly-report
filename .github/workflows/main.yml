@@ -7,10 +7,10 @@ jobs:
   ci-pipeline:
     runs-on: ubuntu-latest
     env:
-     SENDER: ${{ env.SENDER }}
-     RECIPIENT: ${{ env.RECIPIENT }}
-     X_API_KEY: ${{ env.X_API_KEY }}
-     GOOGLE_APP_PWD: ${{ env.GOOGLE_APP_PWD }}
+      SENDER: ${{ env.SENDER }}
+      RECIPIENT: ${{ env.RECIPIENT }}
+      X_API_KEY: ${{ env.X_API_KEY }}
+      GOOGLE_APP_PWD: ${{ env.GOOGLE_APP_PWD }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
