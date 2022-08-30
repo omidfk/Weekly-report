@@ -3,10 +3,10 @@ name: Weekly Report
 on:
  workflow_dispatch:
 env:
-  SENDER: ${{ env.SENDER }}
-  RECIPIENT: ${{ env.RECIPIENT }}
-  X_API_KEY: ${{ env.X_API_KEY }}
-  GOOGLE_APP_PWD: ${{ env.GOOGLE_APP_PWD }}
+  SENDER: ${{ secrets.SENDER }}
+  RECIPIENT: ${{ secrets.RECIPIENT }}
+  X_API_KEY: ${{ secrets.X_API_KEY }}
+  GOOGLE_APP_PWD: ${{ secrets.GOOGLE_APP_PWD }}
 
 jobs:
   ci-pipeline:
