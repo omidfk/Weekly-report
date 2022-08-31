@@ -3,7 +3,7 @@ name: Weekly Report
 on:
  workflow_dispatch:
  schedule:
-  - cron: '0 0 * * 1,3,4'
+  - cron: '0 0 * * 1'
 env:
   SENDER: ${{ secrets.SENDER }}
   RECIPIENT: ${{ secrets.RECIPIENT }}
